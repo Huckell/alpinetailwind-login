@@ -137,14 +137,9 @@
 
                 <?php if(is_user_logged_in()) { ?>
                   <ul class="flex flex-col flex-wrap pl-0 mt-4 lg:flex-row lg:mt-0 lg:absolute lg:right-0"> 
-                    <li class="px-4">
-                      <a class="hover:text-blue-500" href="<?php get_site_url(); ?>/cart">
-                        C                     
-                      </a>
-                    </li>
                     <li class="px-4">  
-                      <a class="hover:text-blue-500" href="<?php get_site_url(); ?>/my-account">
-                          A                    
+                      <a class="hover:text-blue-500" href="<?php get_site_url(); ?>/dashboard">
+                          Dashboard                    
                       </a>
                     </li>
                     <li class="pl-4">  
