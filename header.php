@@ -171,10 +171,6 @@
     </nav>
         
     <!--end nav-->
-
-  <div id="nav-search" class="cw-xl">
-    <?php aws_get_search_form( true ); ?>
-  </div>
       
 </header>
   
