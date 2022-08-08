@@ -1,0 +1,142 @@
+/*!
+Theme Name: Alpine Tailwind
+*/
+
+@tailwind base;
+
+/*gutenberg styles & classes - create classes to use in gb directly and apply tw classes to gb*/
+
+/*default is system-ui*/
+h1{
+    @apply text-5xl my-4 xl:text-5xl 2xl:text-7xl dark:text-white;
+}
+h2{
+    @apply text-4xl my-4 xl:text-5xl 2xl:text-6xl dark:text-white;
+}
+h3{
+    @apply text-3xl my-4 xl:text-4xl 2xl:text-5xl dark:text-white;
+}
+h4{
+    @apply text-2xl my-4 xl:text-4xl 2xl:text-5xl dark:text-white;
+}
+h5{
+    @apply text-xl my-4 xl:text-2xl 2xl:text-3xl dark:text-white;
+}
+h6{
+    @apply text-xl my-4 xl:text-2xl 2xl:text-3xl dark:text-white;
+}
+p{
+    @apply text-base my-2 xl:text-lg 2xl:text-xl dark:text-white; 
+}
+a{
+    @apply dark:text-white dark:hover:text-blue-500; 
+}
+svg.dark-svg{
+    @apply dark:hidden;
+}
+svg.light-svg{
+    @apply hidden dark:inline;
+}
+/*column widths*/
+.cw-sm{
+    @apply max-w-screen-sm mx-auto my-8 px-2.5; /*min-width: 640px + padding l/r 10px*/
+}
+.cw-md{
+    @apply max-w-screen-md mx-auto my-8 px-2.5; /*min-width: 768px + padding l/r 10px*/
+}
+.cw-lg{
+    @apply max-w-screen-lg mx-auto my-8 px-2.5; /*min-width: 1024px + padding l/r 10px*/
+}
+.cw-xl{
+    @apply max-w-screen-xl mx-auto my-8 px-2.5; /*min-width: 1280px + padding l/r 10px*/
+}
+.cw-2xl{
+    @apply max-w-screen-2xl mx-auto my-8 px-2.5; /*min-width: 1536px + padding l/r 10px*/
+}
+/*wp-block-columns*/
+.wp-block-columns{
+    @apply dark:bg-gray-700;
+}
+body{
+    @apply dark:bg-gray-700;
+}
+/*wp blockquote*/
+.wp-block-quote{
+    @apply border-l-2 border-blue-500 rounded pl-5 my-8;
+}
+.wp-block-quote p{
+    @apply font-bold dark:text-white;
+}
+.wp-block-quote p:before{
+    content:'\201C';
+    @apply mr-1 text-blue-200;
+}
+.wp-block-quote p:after{
+    content:'\201D';
+    @apply ml-1 text-blue-200;
+}
+cite{
+    @apply dark:text-white
+}
+.wp-block-quote cite:before{
+    content:"~ ";
+    @apply text-blue-200;
+}
+/*woocomerce global*/
+div.woocommerce{
+    @apply cw-xl; 
+}
+.woocommerce a.button{
+    @apply !px-6 !py-4 !rounded;
+}
+th{
+    @apply dark:text-white;
+}
+bdi{ /*woocommerce cart prices*/
+    @apply dark:text-white;
+}
+.product_meta{
+    @apply dark:text-white;
+}
+/*product single*/
+td.value select{
+    @apply border border-gray-500 py-2 px-4 rounded;
+}
+/*cart*/
+.woocommerce table.shop_table{
+    @apply dark:border-gray-500;
+}
+.woocommerce table.shop_table td{
+    @apply dark:border-t-gray-500;
+}
+input#coupon_code{
+    @apply w-auto rounded;
+}
+/*shop page*/
+select.orderby{
+    @apply border border-gray-500 px-4 py-2 rounded;
+}
+
+/*woocommerce account pages*/
+.woocommerce-MyAccount-content form input{
+    @apply py-2 my-4 border-2 border-gray-500 border-solid;
+}
+nav.woocommerce-MyAccount-navigation{
+    @apply border-l-2 border-l-blue-200 border-solid pl-4;
+}
+nav.woocommerce-MyAccount-navigation ul li{
+    @apply mb-2;
+}
+nav.woocommerce-MyAccount-navigation ul li a{
+    @apply hover:text-blue-500;
+}
+input span em{
+    @apply dark:text-gray-300;
+}
+legend{
+    @apply dark:text-gray-300;
+}
+/*end*/
+
+@tailwind components;
+@tailwind utilities;
