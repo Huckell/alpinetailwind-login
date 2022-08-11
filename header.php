@@ -54,9 +54,9 @@
       
         <ul class="flex flex-col flex-wrap pl-0 mt-4 lg:flex-row lg:-mt-2 dark:text-white">
           <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2" x-data="{isOpen:false }" @mouseleave="isOpen = false">
-              <a href="#" class="py-2 px-4 group-hover:text-blue-500" @click="isOpen = !isOpen" x-on:click.prevent="" :class="{'' : isOpen}">
+              <a href="<?php get_site_url(); ?>/website-design" class="py-2 px-4 group-hover:text-blue-500" @click="isOpen = !isOpen" x-on:click.prevent="" :class="{'' : isOpen}">
 
-                  Page 1 
+                  Website Design
                 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#000" width="16" height="16" class="hidden dark-svg lg:inline-block relative top-0 right-0 transform rotate-90" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
@@ -70,25 +70,25 @@
                 <ul class="m-4" aria-label="submenu" x-show="isOpen" x-transition.duration.400ms @click.away="isOpen = false" style="display: none;">
                   
                   <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
-                     <a href="#" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                     <a href="<?php get_site_url(); ?>/website-design/the-design-process" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
                       
-                    Page 1
+                    The design process
                     
                     </a>
-                  </li><!-- /.p-3 bg-green-200 -->
+                  </li>
                    
                   <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
-                    <a href="#" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                    <a href="<?php get_site_url(); ?>/website-design/building-fast-reliable-websites" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
 
-                    Sub Page 1
+                    Building fast reliable websites
                     
                     </a>
                   </li>
 
                   <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
-                    <a href="#" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                    <a href="<?php get_site_url(); ?>/website-design/ongoing-support" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
 
-                    Sub Page 2
+                    Ongoing support
                     
                     </a>
                   </li>
@@ -98,41 +98,49 @@
                       
                   <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2">
 
-                    <a href="#" class="py-2 px-4 group-hover:text-blue-500">
+                    <a href="<?php get_site_url(); ?>/website/maintenance" class="py-2 px-4 group-hover:text-blue-500">
 
-                      Page 2
+                    Website Maintenance
                     
                     </a>
   
                   </li>
 
-                  <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2">
+                  <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2" x-data="{isOpen:false }" @mouseleave="isOpen = false">
+              <a href="<?php get_site_url(); ?>/website-speed" class="py-2 px-4 group-hover:text-blue-500" @click="isOpen = !isOpen" x-on:click.prevent="" :class="{'' : isOpen}">
 
-                    <a href="#" class="py-2 px-4 group-hover:text-blue-500">
-
-                      Page 3
-                    
-                    </a>
-  
-                  </li>
-
-                  <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2">
-
-                    <a href="#" class="py-2 px-4 group-hover:text-blue-500">
-
-                      Page 4
-                    
-                    </a>
-  
-                  </li>
+                  Website Speed
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#000" width="16" height="16" class="hidden dark-svg lg:inline-block relative top-0 right-0 transform rotate-90" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                </svg>
+                <!--Todo : exclude the oposite color on dark / light modes-->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFF" width="16" height="16" class="hidden light-svg lg:inline-block relative top-0 right-0 transform rotate-90" viewBox="0 0 16 16"> 
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                </svg>                 
+              </a>    
+                                
+                <ul class="m-4" aria-label="submenu" x-show="isOpen" x-transition.duration.400ms @click.away="isOpen = false" style="display: none;">
+                  
+                  <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
+                     <a href="<?php get_site_url(); ?>/website-speed/improve-my-google-ranking" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
                       
-                  <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2">
-                    <a href="#" class="py-2 px-4 group-hover:text-blue-500">
-
-                      Page 5
-              
+                    Improve my google ranking
+                    
                     </a>
                   </li>
+                  <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
+                     <a href="<?php get_site_url(); ?>/website-speed/why-is-my-website-slow" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                      
+                    Why is my website slow?
+                    
+                    </a>
+                  </li>
+
+                       
+                </ul>
+                  </li>
+        
                 </ul>
 
                 <?php if(is_user_logged_in()) { ?>
