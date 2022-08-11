@@ -54,7 +54,7 @@
       
         <ul class="flex flex-col flex-wrap pl-0 mt-4 lg:flex-row lg:-mt-2 dark:text-white">
           <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2" x-data="{isOpen:false }" @mouseleave="isOpen = false">
-              <a href="<?php get_site_url(); ?>/website-design" class="py-2 px-4 group-hover:text-blue-500" @click="isOpen = !isOpen" x-on:click.prevent="" :class="{'' : isOpen}">
+              <a href="#" class="py-2 px-4 group-hover:text-blue-500" @click="isOpen = !isOpen" x-on:click.prevent="" :class="{'' : isOpen}">
 
                   Website Design
                 
@@ -69,10 +69,18 @@
                                 
                 <ul class="m-4" aria-label="submenu" x-show="isOpen" x-transition.duration.400ms @click.away="isOpen = false" style="display: none;">
                   
-                  <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
-                     <a href="<?php get_site_url(); ?>/website-design/the-design-process" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
+                     <a href="<?php get_site_url(); ?>/website-design" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
                       
-                    The design process
+                    Website Design
+                    
+                    </a>
+                  </li>
+
+                  <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
+                     <a href="<?php get_site_url(); ?>/website-design/design-build-process" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                      
+                    The design and build process
                     
                     </a>
                   </li>
@@ -107,7 +115,7 @@
                   </li>
 
                   <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2" x-data="{isOpen:false }" @mouseleave="isOpen = false">
-              <a href="<?php get_site_url(); ?>/website-speed" class="py-2 px-4 group-hover:text-blue-500" @click="isOpen = !isOpen" x-on:click.prevent="" :class="{'' : isOpen}">
+              <a href="#" class="py-2 px-4 group-hover:text-blue-500" @click="isOpen = !isOpen" x-on:click.prevent="" :class="{'' : isOpen}">
 
                   Website Speed
                 
@@ -122,6 +130,14 @@
                                 
                 <ul class="m-4" aria-label="submenu" x-show="isOpen" x-transition.duration.400ms @click.away="isOpen = false" style="display: none;">
                   
+                <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
+                     <a href="<?php get_site_url(); ?>/website-speed" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                      
+                     Website Speed
+                    
+                    </a>
+                  </li>
+
                   <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
                      <a href="<?php get_site_url(); ?>/website-speed/improve-my-google-ranking" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
                       
