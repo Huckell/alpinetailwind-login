@@ -127,7 +127,7 @@ $tel_number = "07587464440";
 
         <!-- footer menu four -->
         <div class="md:text-left">
-      <h3 class="text-2xl font-medium mb-2">Locations</h3>
+      <h3 class="text-2xl font-medium mb-2">Technical SEO Support</h3>
       <?php wp_nav_menu( array(
         'theme_location'  => 'footer-four',
         'menu'                 => '',
