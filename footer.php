@@ -101,7 +101,7 @@ $tel_number = "07587464440";
     </div>
     <!-- footer menu three -->
     <div class="border-b border-gray-300 pb-6 sm:border-b sm:border-gray-300 md:border-none md:text-left">
-      <h3 class="text-2xl font-medium mb-2">Finder</h3>
+      <h3 class="text-2xl font-medium mb-2">Accessibility</h3>
       <?php wp_nav_menu( array(
         'theme_location'  => 'footer-three',
         'menu'                 => '',
