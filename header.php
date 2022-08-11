@@ -12,13 +12,13 @@
   <body <?php body_class(); ?>>
 <header class="bg-white dark:bg-gray-700 border-b border-gray-200 dark:border-gray-500 shadow-md shadow-gray-200/50 dark:shadow-md dark:shadow-gray-900/50">
 
-<nav class="grid place-items-center cw-xl">
+<nav class="grid place-items-center cw-2xl">
   <div class="w-full text-gray-700">
 
     <div x-data="{ open: false }" class="flex flex-col mx-auto ax-w-screen lg:flex-row">
       
-    <a href="/" class="text-lg font-semibold tracking-widest text-gray-900 uppercase dark:text-white focus:outline-none focus:shadow-outline">
-              Website Name
+    <a href="/" class="text-lg font-semibold tracking-widest text-gray-900 dark:text-white focus:outline-none focus:shadow-outline">
+              Huckleberry Studio
               <span class="sr-only">Home</span>
       </a>
 
