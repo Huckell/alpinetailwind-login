@@ -156,6 +156,15 @@
                        
                 </ul>
                   </li>
+                  <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2">
+
+                    <a href="<?php get_site_url(); ?>/contact" class="py-2 px-4 group-hover:text-blue-500">
+
+                    Contact
+
+                    </a>
+  
+                  </li>
         
                 </ul>
 
