@@ -72,7 +72,7 @@
                 <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
                      <a href="<?php get_site_url(); ?>/website-design" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
                       
-                    Website Design
+                    Website design
                     
                     </a>
                   </li>
@@ -133,7 +133,7 @@
                 <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
                      <a href="<?php get_site_url(); ?>/website-speed" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
                       
-                     Website Speed
+                     Website speed
                     
                     </a>
                   </li>
