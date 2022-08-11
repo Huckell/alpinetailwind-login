@@ -1,6 +1,6 @@
 <?php 
-$company_name = "Company Name";
-$tel_number = "00 01234 567 8910";
+$company_name = "Huckleberry Studio";
+$tel_number = "07587464440";
 ?>
 
 <footer class="bg-gradient-to-b from-white to-gray-300 dark:bg-gradient-to-b dark:from-gray-700 dark:to-black text-center w-full bottom-0">
