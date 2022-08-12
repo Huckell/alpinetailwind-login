@@ -153,11 +153,12 @@ $tel_number = "07587464440";
 
   </div> <!--end menu container-->
 
-<!-- darkMode / lightMode Toggle  Todo : create as floating button-->
+<!-- darkMode / lightMode Toggle button-->
   <button type="button" @click="darkMode = (darkMode === 'true' ? 'false' : 'true')" class="rounded hover:shadow py-2 px-6 border-gray-500 border bg-black text-white dark:text-black dark:bg-white mr-4 ml-4 lg:mr-0 lg:ml-0">
     <span x-show="darkMode === 'true'">Light Mode</span>
     <span x-show="darkMode === 'false'">Dark Mode</span>
   </button>
+<!--end--->
 
   <div class="text-gray-400 text-base font-medium p-8">
   <inline class="dark:text-white">&copy; <?php echo date("Y"); ?> -  <?php echo $company_name; ?></inline> 
