@@ -12,6 +12,13 @@ function theme_files() {
 add_action('wp_enqueue_scripts', 'theme_files');
 // end
 
+/// favicon
+function add_favicon() { ?>
+  <link rel="shortcut icon" href="/favicon.ico" >
+  <?php }
+  add_action('wp_head', 'add_favicon');
+// end
+
 /// register menu locations  
 if ( function_exists( 'register_nav_menus' ) ) {
     register_nav_menus(
