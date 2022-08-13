@@ -169,41 +169,23 @@
         
                 </ul>
 
-                <?php if(is_user_logged_in()) { ?>
-                  <ul class="flex flex-col flex-wrap pl-0 mt-4 lg:flex-row lg:mt-0 lg:absolute lg:right-0"> 
-                    <li class="px-4">  
-                      <a class="hover:text-blue-500" href="<?php get_site_url(); ?>/dashboard">
-                          Dashboard                    
-                      </a>
-                    </li>
-                    <li class="pl-4">  
-                      <a class="hover:text-blue-500" href="<?php echo wp_logout_url(); ?>">
-                          Log Out                     
-                      </a>
-                    </li>
-                  </ul>
-                  
-                <?php } else { ?>
-                  
-                  <ul class="flex flex-col flex-wrap pl-0 mt-4 lg:flex-row lg:mt-0 lg:absolute lg:right-0"> 
-                    <li class="px-4">
-                      <a class="hover:text-blue-500" href="<?php echo wp_login_url(); ?>" class="dark:text-white"">
-                        Login
-                      </a>
-                    </li>
-                    <li class="px-4">
-                      <a class="hover:text-blue-500" href="<?php echo wp_registration_url(); ?>" class="dark:text-white"">
-                        Sign Up
-                      </a>
-                    </li>
-                  </ul>                     
-                <?php } ?>
-               
+                <!-- darkMode / lightMode Toggle button-->
+                <ul class="flex flex-col flex-wrap pl-0 mt-4 lg:flex-row lg:mt-0 lg:absolute lg:right-0"> 
+                  <li class="px-4">
+                    <button type="button" @click="darkMode = (darkMode === 'true' ? 'false' : 'true')" class="rounded hover:shadow py-2 px-6 border-gray-500 border bg-black text-white dark:text-black dark:bg-white mr-4 ml-4 lg:mr-0 lg:ml-0">
+                      <span x-show="darkMode === 'true'">Light Mode</span>
+                      <span x-show="darkMode === 'false'">Dark Mode</span>
+                    </button>
+                  </li>
+                </ul>
+                <!--end--->
+
+                     
         </div>
       
     </nav>
     </nav>
-        
+
     <!--end nav-->
       
 </header>
