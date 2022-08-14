@@ -153,6 +153,13 @@
                     
                     </a>
                   </li>
+                  <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
+                     <a href="<?php get_site_url(); ?>/website-speed/why-is-my-website-slow" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
+                      
+                    What is technical SEO?
+                    
+                    </a>
+                  </li>
 
                        
                 </ul>
