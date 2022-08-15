@@ -6,7 +6,7 @@
     </div>
     <div class="z-10">
         <h1 class="">Huckleberry Studio</h1>
-        <p class="">WordPress development with search engine optimisation as standard.</p>
+        <p class="">WordPress development with Accessability & SEO as standard.</p>
     </div>
 </section>
 
