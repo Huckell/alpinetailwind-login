@@ -82,6 +82,26 @@ cite{
     content:"~ ";
     @apply text-blue-200;
 }
+
+/*video header*/
+.div-video video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div-video::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.div-video::after{
+    @apply bg-white/90 dark:bg-black/90;
+}
+
 /*end*/
 
 @tailwind components;
