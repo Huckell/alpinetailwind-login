@@ -1060,14 +1060,6 @@ svg.light-svg {
   margin-bottom: 2rem;
 }
 
-.-mt-8 {
-  margin-top: -2rem;
-}
-
-.-mt-20 {
-  margin-top: -5rem;
-}
-
 .block {
   display: block;
 }
@@ -1266,6 +1258,11 @@ svg.light-svg {
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
 .bg-blue-500 {
@@ -1502,6 +1499,11 @@ svg.light-svg {
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
+.hover\:border-blue-200:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(191 219 254 / var(--tw-border-opacity));
+}
+
 .hover\:bg-blue-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
@@ -1568,6 +1570,11 @@ svg.light-svg {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:text-blue-200 {
+  --tw-text-opacity: 1;
+  color: rgb(191 219 254 / var(--tw-text-opacity));
+}
+
 .dark .dark\:border-gray-500 {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
@@ -1581,18 +1588,6 @@ svg.light-svg {
 .dark .dark\:bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.dark .dark\:bg-black\/80 {
-  background-color: rgb(0 0 0 / 0.8);
-}
-
-.dark .dark\:bg-black\/10 {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.dark .dark\:bg-black\/0 {
-  background-color: rgb(0 0 0 / 0);
 }
 
 .dark .dark\:bg-gradient-to-b {
@@ -1630,9 +1625,24 @@ svg.light-svg {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.dark .dark\:hover\:border-blue-200:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(191 219 254 / var(--tw-border-opacity));
+}
+
 .dark .dark\:hover\:text-orange-500:hover {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:text-blue-200:hover {
+  --tw-text-opacity: 1;
+  color: rgb(191 219 254 / var(--tw-text-opacity));
+}
+
+.dark .group:hover .dark\:group-hover\:text-blue-200 {
+  --tw-text-opacity: 1;
+  color: rgb(191 219 254 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
