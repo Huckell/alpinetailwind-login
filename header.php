@@ -130,8 +130,8 @@
               </a>    
                                 
                 <ul class="m-4" aria-label="submenu" x-show="isOpen" x-transition.duration.400ms @click.away="isOpen = false" style="display: none;">
-                  
-                <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2">
+                
+                <li class="group relative border-l rounded-l-sm border-blue-200 hover:border-blue-500 pl-2 my-2 grid grid-col-2">
                      <a href="<?php get_site_url(); ?>/website-speed" class="py-2 text-gray-800 bg-transparent hover:text-blue-500 lg:text-sm">
                       
                      Website speed
@@ -160,9 +160,9 @@
                     
                     </a>
                   </li>
-
-                       
+      
                 </ul>
+      
                   </li>
                   <li class="group relative block lg:px-0 xl:px-0 mr-1 py-2">
 
