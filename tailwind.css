@@ -90,6 +90,7 @@ cite{
   transform: translate(-50%, -50%);
 }
 .div-video::after {
+
   content: "";
   position: absolute;
   width: 100%;
@@ -99,7 +100,7 @@ cite{
   z-index: 1;
 }
 .div-video::after{
-    @apply bg-white/90 dark:bg-black/90;
+    @apply bg-white/90 dark:bg-black/80;
 }
 
 /*end*/
