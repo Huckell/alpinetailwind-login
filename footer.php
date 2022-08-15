@@ -3,7 +3,7 @@ $company_name = "Huckleberry Studio";
 $tel_number = "07587464440";
 ?>
 
-<footer class="bg-gradient-to-b from-white to-gray-300 dark:bg-gradient-to-b dark:from-gray-700 dark:to-black text-center w-full bottom-0">
+<footer class="bg-gradient-to-b from-white to-gray-300 dark:bg-gradient-to-b dark:from-black dark:to-gray-700 text-center w-full bottom-0">
   
 
 

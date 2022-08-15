@@ -11,7 +11,7 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-<header class="bg-white dark:bg-gray-700 border-b border-gray-200 dark:border-gray-500 shadow-md shadow-gray-200/50 dark:shadow-md dark:shadow-gray-900/50">
+<header class="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-500 shadow-md shadow-gray-200/50 dark:shadow-md dark:shadow-gray-900/50">
 
 <nav class="grid place-items-center cw-2xl">
   <div class="w-full text-gray-700">
